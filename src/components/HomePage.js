@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Hero from '../assets/hero.jpg'
 import Services from './Services';
+import Contact from './Contact';
 import Footer from './Footer';
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
           </div>
 
           <Services/>
+           <Contact/>
            <Footer/>
 
         </div>
